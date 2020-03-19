@@ -1,3 +1,4 @@
+#Sample terraform script for VPC Peering
 #VPC1 CREATION- 192.168.0.0/26
 resource "aws_vpc" "vpc1"{
 	cidr_block = "192.168.0.0/26"
